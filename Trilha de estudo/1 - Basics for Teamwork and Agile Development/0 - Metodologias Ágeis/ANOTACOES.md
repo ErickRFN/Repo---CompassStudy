@@ -72,23 +72,23 @@
 
 10. User Stories e Backlog
 
-   10.1 Cartão, Conversa e Confirmação
+    10.1 Cartão, Conversa e Confirmação
 
-   10.2 Categorias
+    10.2 Categorias
 
-   10.3 Visão de produto e construção de Backlog
+    10.3 Visão de produto e construção de Backlog
 
 11. Sprint na prática
 
-   11.1 Sprint Planing na prática
+    11.1 Sprint Planing na prática
 
-   11.2 Daily Scrum na prática
+    11.2 Daily Scrum na prática
 
-   11.3 Definição de pronto
+    11.3 Definição de pronto
 
-   11.4 Sprint Review na prática
+    11.4 Sprint Review na prática
 
-   11.5 Sprint Retrospective na prática
+    11.5 Sprint Retrospective na prática
 
 12. Escalando o Scrum
 
