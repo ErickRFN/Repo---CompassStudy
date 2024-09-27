@@ -279,10 +279,10 @@ Normalmente o timebox de cada sprint é de *1 a 4 semanas*
 
 Reunião realizada **no primeiro dia da sprint**
 
-- *Timebox:* 8 horas
-- _Product owner_ define a **meta** da sprint
-- É selecionado itens da *Backlog* para compor a *Sprint backlog*
-- São criadas *tasks* nos itens selecionados
+[x]*Timebox:* 8 horas
+[x] _Product owner_ define a **meta** da sprint
+[x] É selecionado itens da *Backlog* para compor a *Sprint backlog*
+[x] São criadas *tasks* nos itens selecionados
 
 <a id="82-conceitos-da-daily-scrum"></a>
 
@@ -290,8 +290,8 @@ Reunião realizada **no primeiro dia da sprint**
 
 Reunião realizada **todos os dias** durante a sprint
 
-- *Timebox:* 15 minutos
-- Encontro do _time de desenvolvimento_ para falar sobre os trabalhos realizados, a serem realizados no dia e se há impedimentos
+[x] *Timebox:* 15 minutos
+[x] Encontro do _time de desenvolvimento_ para falar sobre os trabalhos realizados, a serem realizados no dia e se há impedimentos
 
 ![Anotação correspondente ao último trecho](./imgs/8.sprintPlaning-daily.jpg)
 
@@ -301,8 +301,8 @@ Reunião realizada **todos os dias** durante a sprint
 
 Reunião realizada **ao final da sprint** para a inspeção do *incremento8 finalizado
 
-- *Timebox:* 4 horas
-- Momento para apresentar o incremento e avaliar se foram entregues todos os itens determinados
+[x] *Timebox:* 4 horas
+[x] Momento para apresentar o incremento e avaliar se foram entregues todos os itens determinados
 
 <a id="84-conceitos-da-sprint-retrospective"></a>
 
@@ -310,8 +310,8 @@ Reunião realizada **ao final da sprint** para a inspeção do *incremento8 fina
 
 Reunião feita **também ao final da sprint**, mas, diferentemente da review que foca no produto, a retrospective foca no processo de Scrum realizado
 
-- *Timebox:* 3 horas
-- Debater *mudanças, permanências e exclusão* de comportamentos, técnicas, ferramentas ou peculiaridades ocorridas durante a sprint
+[x] *Timebox:* 3 horas
+[x] Debater *mudanças, permanências e exclusão* de comportamentos, técnicas, ferramentas ou peculiaridades ocorridas durante a sprint
 
 <a id="artefatos-do-scrum"></a>
 
