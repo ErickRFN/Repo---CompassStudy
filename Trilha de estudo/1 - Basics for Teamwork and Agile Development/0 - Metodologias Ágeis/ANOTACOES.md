@@ -12,90 +12,66 @@
 ---
 
 - ### Tópicos
-1. Identificando ambientes
+1. [Identificando ambientes](#1-identificando-ambientes)
+   1.1 [Framework Cynefin](#11-framework-cynefin)
+   1.2 [Medição de risco](#12-medição-de-risco)
 
-   1.1 Framework Cynefin
+2. [Fundamentos do Scrum](#fundamentos-do-scrum)
 
-   1.2 Medição de risco
+3. [Manifesto Ágil](#manifesto-ágil)
+   3.1 [Valores do manifesto](#31-valores-do-manifesto)
+   3.2 [Princípios do manifesto](#32-princípios-do-manifesto)
 
-2. Fundamentos do Scrum
+4. [Conceitos de agilidade](#conceitos-de-agilidade)
+   4.1 [Modelo Cascata](#41-modelo-cascata)
+   4.2 [Modelo Ágil](#42-modelo-ágil)
+   4.3 [Ser Ágil e Fazer Ágil](#43-ser-ágil-e-fazer-ágil)
 
-3. Manifesto Ágil
+5. [Heart of Agile](#heart-of-agile)
 
-   3.1 Valores do manifesto
+6. [Framework Scrum](#framework-scrum)
+   6.1 [Características](#61-características)
+   6.2 [Pilares](#62-pilares)
 
-   3.2 Princípios do manifesto
+7. [Papéis e Responsabilidades Scrum](#papéis-e-responsabilidades-scrum)
+   7.1 [Scrum Master](#71-scrum-master)
+   7.2 [Product Owner](#72-product-owner)
+   7.3 [Time de desenvolvimento](#73-time-de-desenvolvimento)
 
-4. Conceitos de agilidade
+8. [Sprint](#sprint)
+   8.1 [Conceitos da Sprint Planing](#81-conceitos-da-sprint-planing)
+   8.2 [Conceitos da Daily Scrum](#82-conceitos-da-daily-scrum)
+   8.3 [Conceitos da Sprint Review](#83-conceitos-da-sprint-review)
+   8.4 [Conceitos da Sprint Retrospective](#84-conceitos-da-sprint-retrospective)
 
-    4.1 Modelo Cascata
+9. [Artefatos do Scrum](#artefatos-do-scrum)
+   9.1 [Backlog do Produto](#91-backlog-do-produto)
+   9.2 [Backlog da Sprint](#92-backlog-da-sprint)
+   9.3 [Quadro de tarefas](#93-quadro-de-tarefas)
+   9.4 [Burndown](#94-burndown)
 
-    4.2 Modelo Ágil
+10. [User Stories e Backlog](#user-stories-e-backlog)
+    10.1 [Cartão, Conversa e Confirmação](#101-cartão-conversa-e-confirmação)
+    10.2 [Categorias](#102-categorias)
+    10.3 [Visão de produto e construção de Backlog](#103-visão-de-produto-e-construção-de-backlog)
 
-    4.3 Ser Ágil e Fazer Ágil
+11. [Sprint na prática](#sprint-na-prática)
+    11.1 [Sprint Planing na prática](#111-sprint-planing-na-prática)
+    11.2 [Daily Scrum na prática](#112-daily-scrum-na-prática)
+    11.3 [Definição de pronto](#113-definição-de-pronto)
+    11.4 [Sprint Review na prática](#114-sprint-review-na-prática)
+    11.5 [Sprint Retrospective na prática](#115-sprint-retrospective-na-prática)
 
-5. Heart of Agile
-
-6. Framework Scrum
-
-    6.1 Características
-
-    6.2 Pilares
-
-7. Papéis e Responsabilidades Scrum
-
-   7.1 Scrum Master
-
-   7.2 Product Owner
-
-   7.3 Time de desenvolvimento
-
-8. Sprint
-
-   8.1 Conceitos da Sprint Planing
-
-   8.2 Conceitos da Daily Scrum
-
-   8.3 Conceitos da Sprint Review
-
-   8.4 Conceitos da Sprint Retrospective
-
-9. Artefatos do Scrum
-
-   9.1 Backlog do Produto
-
-   9.2 Backlog da Sprint
-
-   9.3 Quadro de tarefas
-
-   9.4 Burndown
-
-10. User Stories e Backlog
-
-    10.1 Cartão, Conversa e Confirmação
-
-    10.2 Categorias
-
-    10.3 Visão de produto e construção de Backlog
-
-11. Sprint na prática
-
-    11.1 Sprint Planing na prática
-
-    11.2 Daily Scrum na prática
-
-    11.3 Definição de pronto
-
-    11.4 Sprint Review na prática
-
-    11.5 Sprint Retrospective na prática
-
-12. Escalando o Scrum
+12. [Escalando o Scrum](#escalando-o-scrum)
 
 ---
 
 <!-- Aqui começa o conteúdo -->
+<a id="1-identificando-ambientes"></a>
+
 ### 1. Identificando ambientes
+
+<a id="11-framework-cynefin"></a>
 
 #### 1.1 Framework Cynefin
 
@@ -118,6 +94,8 @@ No nível de maior aceitação, o simples, causa e efeito já são conhecidas e 
 
 ![Anotação correspondente ao último trecho](./imgs/1.IdentificandoAmbientes.jpg)
 
+<a id="12-medição-de-risco"></a>
+
 #### 1.2 Medição de risco
 
 Utilizando o framework *Cynefin* para medir risco, temos as seguintes 3 situações:
@@ -130,6 +108,8 @@ Utilizando o framework *Cynefin* para medir risco, temos as seguintes 3 situaç�
 
 3. Situação simples
    - **DE BAIXO RISCO:** *Nós já fizemos várias vezes*
+
+<a id="fundamentos-do-scrum"></a>
 
 ### 2. Fundamentos do Scrum
 
@@ -152,11 +132,15 @@ Seguindo o framework de *Cynefin*, falado no tópico anterior, temos a seguinte 
 
 ![Anotação correspondente ao último trecho](./imgs/2.riscos-fundamentosDoScrum.jpg)
 
+<a id="manifesto-ágil"></a>
+
 ### 3. Manifesto Ágil
 
 O *Manifesto Ágil*, criado em 2001 por um grupo de 17 desenvolvedores de software, propôs um novo modo de trabalhar que prioriza a colaboração, a flexibilidade e a **entrega de valor contínua em intevalos regulares ao cliente**.
 
 > "A prática do desenvolvimento ágil é sobre colocar a qualidade e o valor do cliente acima de tudo." (BECK, 2001)
+
+<a id="31-valores-do-manifesto"></a>
 
 #### 3.1 Valores do manifesto
 
@@ -166,6 +150,8 @@ Os 4 *valores* do manifesto são:
 2. Software em funcionamento **mais que** documentação extensiva
 3. Colaboração com o cliente **mais que** negociação de contratos
 4. Responder a mudanças **mais que** seguir um plano
+
+<a id="32-princípios-do-manifesto"></a>
 
 #### 3.2 Princípios do manifesto
 
@@ -186,7 +172,11 @@ Os 12 *princípios* do manifesto são:
 
 ![Anotação correspondente ao último trecho](./imgs/3.manifestoAgil.jpg)
 
+<a id="conceitos-de-agilidade"></a>
+
 ### 4. Conceitos de agilidade
+
+<a id="41-modelo-cascata"></a>
 
 #### 4.1 Modelo cascata
 
@@ -196,6 +186,8 @@ EXEMPLO: **Estudo -> Análise -> Projeto -> Codificação -> Testes -> Implanta�
 
 Por isso ele é considerado um *modelo preditivo* já que tem planejamento detalhado, estrutura fixa e mudanças planejadas.
 
+<a id="42-modelo-ágil"></a>
+
 #### 4.2 Modelo ágil
 
 Já o modelo ágil, diferente do de cascata, tem:
@@ -203,6 +195,8 @@ Já o modelo ágil, diferente do de cascata, tem:
 - **Entregas curtas e Interativas**
 
 O foco desse modelo não é seguir uma linha até o final do projeto e entregar o produto final ao cliente. O foco é fazer *entregas incrementais* ao produto após processos com intervalos iguais chamados de **SPRINT**
+
+<a id="43-ser-ágil-e-fazer-ágil"></a>
 
 #### 4.3 Ser ágil e fazer ágil
 
@@ -214,6 +208,8 @@ O foco desse modelo não é seguir uma linha até o final do projeto e entregar 
 
 ![Anotação correspondente ao último trecho](./imgs/4.conceitosDeAgilidade.jpg)
 
+<a id="heart-of-agile"></a>
+
 ### 5. Heart of Agile
 
 *Heart of Agile* segue 4 conceitos:
@@ -223,7 +219,11 @@ O foco desse modelo não é seguir uma linha até o final do projeto e entregar 
 3. **Refletir** periodicamente sobre as suas colaborações e entregas
 4. **Melhorar** suas idéias, implementação técnica e processos internos
 
+<a id="framework-scrum"></a>
+
 ### 6. Framework Scrum
+
+<a id="61-características"></a>
 
 #### 6.1 Características
 
@@ -233,6 +233,8 @@ O framework *Scrum* é:
 - **DIFÍCIL DE APLICAR**
 
 Isso por que é baseado na _teoria empírica_: **aprenda fazendo**
+
+<a id="62-pilares"></a>
 
 #### 6.2 Pilares
 
@@ -244,7 +246,11 @@ Já os demais pilares, inspeção e adaptação, estão relacionados diretamente
 
 ![Anotação correspondente ao último trecho](./imgs/5.heartOfAgile-frameworkScrum.jpg)
 
+<a id="papéis-e-responsabilidades-scrum"></a>
+
 ### 7. Papéis e Responsabilidades Scrum
+
+<a id="71-scrum-master"></a>
 
 #### 7.1 Scrum Master
 
@@ -252,15 +258,21 @@ O **Scrum Master** é o facilitador da equipe no método ágil Scrum, responsáv
 
 ![Anotação correspondente ao último trecho](./imgs/6.papeisEResponsabilidadesScrum.jpg)
 
+<a id="72-product-owner"></a>
+
 #### 7.2 Product Owner
 
 O **Product Owner** é a pessoa responsável por maximizar o *valor do produto* resultante do trabalho da equipe Scrum, atuando como a principal ponte entre os stakeholders e a equipe de desenvolvimento, sendo encarregado de gerenciar o **backlog do produto**, assegurando que o produto entregue atenda às necessidades do mercado e esteja sempre alinhado às prioridades do negócio.
+
+<a id="73-time-de-desenvolvimento"></a>
 
 #### 7.3 Time de desenvolvimento
 
 O **Time de Desenvolvimento** é formado por profissionais multifuncionais que trabalham juntos para entregar incrementos de produto, transformando itens do **backlog** em funcionalidades prontas, com autonomia para decidir como realizar o trabalho, colaborando com o **Scrum Master** e o **Product Owner**, garantindo que cada entrega agregue valor ao cliente.
 
 ![Anotação correspondente ao último trecho](./imgs/6.1.papeisEResponsabilidadesScrum.jpg)
+
+<a id="sprint"></a>
 
 ### 8. Sprint
 
@@ -272,6 +284,8 @@ Normalmente o timebox de cada sprint é de *1 a 4 semanas*
 
 ![Anotação correspondente ao último trecho](./imgs/7.sprint.jpg)
 
+<a id="81-conceitos-da-sprint-planing"></a>
+
 #### 8.1 Conceitos da Sprint Planing
 
 Reunião realizada **no primeiro dia da sprint**
@@ -280,6 +294,8 @@ Reunião realizada **no primeiro dia da sprint**
 - _Product owner_ define a **meta** da sprint
 - É selecionado itens da *Backlog* para compor a *Sprint backlog*
 - São criadas *tasks* nos itens selecionados
+
+<a id="82-conceitos-da-daily-scrum"></a>
 
 #### 8.2 Conceitos da Daily Scrum
 
@@ -290,6 +306,8 @@ Reunião realizada **todos os dias** durante a sprint
 
 ![Anotação correspondente ao último trecho](./imgs/8.sprintPlaning-daily.jpg)
 
+<a id="83-conceitos-da-sprint-review"></a>
+
 #### 8.3 Conceitos da Sprint Review
 
 Reunião realizada **ao final da sprint** para a inspeção do *incremento8 finalizado
@@ -297,12 +315,16 @@ Reunião realizada **ao final da sprint** para a inspeção do *incremento8 fina
 - *Timebox:* 4 horas
 - Momento para apresentar o incremento e avaliar se foram entregues todos os itens determinados
 
+<a id="84-conceitos-da-sprint-retrospective"></a>
+
 #### 8.4 Conceitos da Sprint Retrospective
 
 Reunião feita **também ao final da sprint**, mas, diferentemente da review que foca no produto, a retrospective foca no processo de Scrum realizado
 
 - *Timebox:* 3 horas
 - Debater *mudanças, permanências e exclusão* de comportamentos, técnicas, ferramentas ou peculiaridades ocorridas durante a sprint
+
+<a id="artefatos-do-scrum"></a>
 
 ### 9. Artefatos do Scrum
 
@@ -315,17 +337,25 @@ os chamados **artefatos do scrum** são:
 
 ![Anotação correspondente ao último trecho](./imgs/9.sprintReview-sprintRetrospective-artefatos%20do%20Scrum.jpg)
 
+<a id="91-backlog-do-produto"></a>
+
 #### 9.1 Backlog do Produto
 
 > Lista que o PO (product Owner) pode inserir, remover e reordenar itens a partir das histórias de usuário (users stories)
+
+<a id="92-backlog-da-sprint"></a>
 
 #### 9.2 Backlog da Sprint
 
 > Conjunto de itens selecionados no backlog do produto durante a Sprint Planing para gerar o incremento ao final da Sprint
 
+<a id="93-quadro-de-tarefas"></a>
+
 #### 9.3 Quadro de tarefas
 
 > Ferramentas de coluna, próximo ao que é o kanban, que contém as tarefas organizadas em colunas como "a fazer", "fazendo", "feitas"
+
+<a id="94-burndown"></a>
 
 #### 9.4 Burndown
 
@@ -333,11 +363,15 @@ os chamados **artefatos do scrum** são:
 
 ![Anotação correspondente ao último trecho](./imgs/9.1artefatosDoScrum.jpg)
 
+<a id="user-stories-e-backlog"></a>
+
 ### 10. User Stories e Backlog
 
 **User Stories** é um formato que expressa o desejado valor do nogócio para muitos tipos de itens do **backlog**
 
 Em outras palavras, é como o _product owner_ monta o backlog.
+
+<a id="101-cartão-conversa-e-confirmação"></a>
 
 #### 10.1 Cartão, Conversa e Confirmação
 
@@ -346,6 +380,8 @@ Em outras palavras, é como o _product owner_ monta o backlog.
 **CONFIRMAÇÃO**: como verificar se a história está pronta e completa?
 
 seguindo esses passos, o _product owner_ consegue construir um item.
+
+<a id="102-categorias"></a>
 
 #### 10.2 Categorias
 
@@ -357,13 +393,19 @@ seguindo esses passos, o _product owner_ consegue construir um item.
 
 ![Anotação correspondente ao último trecho](./imgs/10.userStoriesEBacklog.jpg)
 
+<a id="103-visão-de-produto-e-construção-de-backlog"></a>
+
 #### 10.3 Visão de produto e construção de Backlog
 
 **A visão de produtos** descreve de maneira clara e objetiva a meta da fase e as suas principais realizações
 
 **Já a construção do backlog** requer entrevistas, dinâmicas em grupos, questionários e outras técnicas para ser feita
 
+<a id="sprint-na-prática"></a>
+
 ### 11. Sprint na prática
+
+<a id="111-sprint-planing-na-prática"></a>
 
 #### 11.1 Sprint Planing na prática
 
@@ -377,6 +419,8 @@ Divide o *timebox por 2*, para duas etapas:
 
 ![Anotação correspondente ao último trecho](./imgs/11.visãoDeProduto-construçãoDeBacklog-sprintPlaningNaPrática.jpg)
 
+<a id="112-daily-scrum-na-prática"></a>
+
 #### 11.2 Daily Scrum na prática
 
 Cada membro do time responde **3 perguntas**:
@@ -387,6 +431,8 @@ Cada membro do time responde **3 perguntas**:
 
 em caso de ter algum impedimento, **após a reunião** a equipe se dedica em resolver.
 
+<a id="113-definição-de-pronto"></a>
+
 #### 11.3 Definição de pronto
 
 Para falar que a Sprint terminou:
@@ -394,6 +440,8 @@ Para falar que a Sprint terminou:
 - **Um incremento deve estar pronto**
 - Boa qualidade para ser utilizado
 - Todos os individuos devem concordar e entender o incremento
+
+<a id="114-sprint-review-na-prática"></a>
 
 #### 11.4 Sprint Review na prática
 
@@ -405,12 +453,16 @@ A importância dessa reunião pós Sprint é **O PRODUTO**
 
 ![Anotação correspondente ao último trecho](./imgs/12.dailyScrumNaPrática-definicaoDePronto-sprintReviewNaPrática.jpg)
 
+<a id="115-sprint-retrospective-na-prática"></a>
+
 #### 11.5 Sprint Retrospective na prática
 
 Já essa reunião pós sprint discute **O PROCESSO**
 
 - Propostas de melhoria
 - O que deve ser mantido para a próxima sprint e o que não pode se repetir
+
+<a id="escalando-o-scrum"></a>
 
 ### 12. Escalando o Scrum
 
