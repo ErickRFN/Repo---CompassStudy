@@ -34,7 +34,7 @@ Para manter a blockchain, cada nó guarda consigo uma **versão completa** da me
        - **NÃO**:
          1. **Próxima etapa**.
 
-- **Primeira etapa:**
+- **Segunda etapa:**
     1. **O nó verifica** se o *index do bloco enviado* é maior que o *index do bloco mais recente da sua blockchain*. Em outras palavras, se a blockchain do par é maior que a sua própria blockchain.
        - **SIM**:
          1. Pede a blockchain inteira do par e verifica se ela é válida.
