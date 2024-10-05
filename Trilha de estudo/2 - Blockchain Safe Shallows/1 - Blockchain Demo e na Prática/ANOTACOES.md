@@ -48,3 +48,5 @@ Para manter a blockchain, cada nó guarda consigo uma **versão completa** da me
 Esse sistema **garante** que os nós sempre irão guardar a *maior e mais atualizada blockchain válida*.
 
 Óbvio que por *cada nó estar conectado com uma quantidade limitada de par*, nem todos guardarão a blockchain correta e mais atualizada. Porém, com o passar do tempo, *esse sistema irá garantir* que cada **informação esteja presente na blockchain que cada nó guarda**.
+
+![Anotação no caderno sobre esse tema](./imgs/1.%20Demo%20Blockchain.jpg)
