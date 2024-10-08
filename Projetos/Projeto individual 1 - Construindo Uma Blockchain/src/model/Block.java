@@ -27,19 +27,31 @@ public class Block implements Block_IF {
         this.previousHash = previousHash;
 		
         // Solicita a hora local, formata ela no padrão BR e guarda no carimbo de tempo
-		LocalDateTime currentDateTime = LocalDateTime.now();
-		DateTimeFormatter DTFormat = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
-        this.timestamp = DTFormat.format(currentDateTime);
+        this.timestamp = generateTimestamp();
 		
         // Gera um número aleatório para o nonce, já que o processo de mineração não está implementado
-        Random random = new Random();
-        this.nonce = random.nextInt(1000000);
+        this.nonce = generateRandomNonce();
         
         // Calcula o hash do bloco
         this.hash = calculateHash();;
 	}
 	
 	//methods
+	private String generateTimestamp() {
+		LocalDateTime currentDateTime = LocalDateTime.now();
+        DateTimeFormatter DTFormat = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+        return DTFormat.format(currentDateTime);
+	}
+	
+	private int generateRandomNonce() {
+		Random random = new Random();
+        return random.nextInt(1000000);
+	}
+	
+	public void updateHashCode() {
+		this.hash = calculateHash();
+	}
+	
 	@Override
 	public String calculateHash() {
 		// Concatena todos os dados necessários para gerar o hash do bloco.
