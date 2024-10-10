@@ -35,7 +35,7 @@ public class Transaction implements Transaction_IF {
 	//to string method
 	@Override
     public String toString() {
-        return sender + " -> " + receiver + ": " + amount;
+        return sender + " -> " + receiver + ": " + amount + "\n";
     }
 	
 }

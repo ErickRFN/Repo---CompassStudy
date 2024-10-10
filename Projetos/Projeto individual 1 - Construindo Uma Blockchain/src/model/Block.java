@@ -55,7 +55,7 @@ public class Block implements Block_IF {
 	@Override
 	public String calculateHash() {
 		// Concatena todos os dados necessários para gerar o hash do bloco.
-		String dataToHash = this.id + this.timestamp + this.transactions 
+		String dataToHash = this.id + this.timestamp + this.transactions
 				+ this.previousHash + this.nonce;
 		
 		// Envia o hash para a função applySHA256 e retorna o resultado.
@@ -91,6 +91,11 @@ public class Block implements Block_IF {
 	@Override
 	public int getNonce() {
 		return this.nonce;
+	}
+	
+	public void setTransactions(ArrayList<Transaction> transactions) {
+		this.transactions = transactions;
+		updateHashCode();
 	}
 
 }

@@ -1,5 +1,6 @@
 package model;
 
+import java.io.*;
 import java.util.ArrayList;
 import interfaces.Blockchain_IF;
 
@@ -13,6 +14,10 @@ public class Blockchain implements Blockchain_IF {
         initializeBlockchain();
         createGenesisBlock();
     }
+	
+	public Blockchain(ArrayList<Block> backupChain) {
+		this.chain = backupChain;
+	}
 	
 	//methods
 	private void initializeBlockchain() {
@@ -60,11 +65,32 @@ public class Blockchain implements Blockchain_IF {
 		return true;
 		
 	}
+    
+	public Blockchain blockchainBackup() {
+    	try {
+            // Serializa a Blockchain para um stream de bytes em memória
+            ByteArrayOutputStream byteOutStream = new ByteArrayOutputStream();
+            ObjectOutputStream outStream = new ObjectOutputStream(byteOutStream);
+            outStream.writeObject(this);
+
+            // Desserializa a Blockchain de volta para um novo objeto
+            ByteArrayInputStream byteInStream = new ByteArrayInputStream(byteOutStream.toByteArray());
+            ObjectInputStream inStream = new ObjectInputStream(byteInStream);
+
+            return (Blockchain) inStream.readObject();  // Retorna a cópia 
+        } catch (IOException | ClassNotFoundException e) {
+            throw new RuntimeException("Erro ao clonar a blockchain", e);
+        }    
+    }
 
     //getters and setters
 	@Override
 	public Block getLatestBlock() {
 		return chain.get(chain.size() - 1);
+	}
+	
+	public ArrayList<Block> getChain() {
+		return this.chain;
 	}
 
 	//toString
@@ -73,7 +99,7 @@ public class Blockchain implements Blockchain_IF {
 		for (Block block : chain) {
             System.out.println("Block ID: " + block.getId());
             System.out.println("Timestamp: " + block.getTimestamp());
-            System.out.println("Transactions: " + block.getTransactions());
+            System.out.println("Transactions: \n" + block.getTransactions());
             System.out.println("Previous Hash: " + block.getPreviousHash());
             System.out.println("Hash: " + block.getHash());
             System.out.println("Nonce: " + block.getNonce());
